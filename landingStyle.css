@@ -1,0 +1,82 @@
+body {
+    background-image: url(mainbckg.jpg);
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+}
+
+.center-data {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.center-data span{
+    font-style: oblique;
+}
+
+.center-data h1 {
+    color: azure;
+    padding-top: 300px;
+    font-weight: 400;
+    font-size: 4.5em;
+    margin: 0;
+}
+
+.center-data h2 {
+    color: azure;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.center-data h3 {
+    color: azure;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#AudioB {
+    background-color: gray; /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#VideoB {
+    background-color: gray; /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#AudioB:hover {
+    background-color: #4d4d4d;
+}
+
+#VideoB:hover {
+    background-color: #4d4d4d;
+}
